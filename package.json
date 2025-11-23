@@ -1,0 +1,37 @@
+{
+  "name": "Codex-Portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "3d-force-graph": "^1.79.0",
+    "d3": "^7.9.0",
+    "katex": "^0.16.22",
+    "marked": "^17.0.1",
+    "pdfjs-dist": "5.3.93",
+    "prop-types": "^15.8.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-katex": "^3.1.0",
+    "react-pdf": "^10.1.0",
+    "swiper": "^12.0.2",
+    "three": "^0.180.0",
+    "typed.js": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/node": "^22.14.0",
+    "@types/three": "^0.180.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.53.3"
+  }
+}

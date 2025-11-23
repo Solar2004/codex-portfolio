@@ -1,0 +1,47 @@
+{
+  "id": "my-portfolio",
+  "name": "Codex Portfolio",
+  "type": "Web Application",
+  "description": "Modern portfolio website with advanced search and 3D visualizations",
+  "logo": "logo.jpg",
+  "dates": {
+    "start": "2023-09",
+    "end": "2024-01",
+    "duration": "4 months"
+  },
+  "workInfo": {
+    "workStyle": "Personal Project",
+    "status": "Completed",
+    "complexity": "Advanced"
+  },
+  "technologies": [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Vite",
+    "Three.js",
+    "Swiper"
+  ],
+  "features": [
+    "3D document visualization",
+    "Advanced search functionality",
+    "Responsive design",
+    "Dark mode",
+    "Markdown rendering",
+    "Project showcase"
+  ],
+  "links": {
+    "github": {
+      "url": "https://github.com/user/codex-portfolio",
+      "repo": "user/codex-portfolio",
+      "hasRepo": true
+    },
+    "demo": "https://codex-portfolio.dev",
+    "documentation": "https://docs.codex-portfolio.dev"
+  },
+  "challenges": [
+    "3D performance optimization",
+    "Complex search implementation",
+    "Mobile responsiveness"
+  ]
+}

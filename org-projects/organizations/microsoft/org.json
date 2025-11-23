@@ -1,0 +1,41 @@
+{
+  "id": "microsoft",
+  "name": "Microsoft",
+  "type": "organization",
+  "position": "Principal Developer",
+  "project": "Azure AI Services",
+  "description": "Built machine learning pipelines for enterprise clients",
+  "logo": "logo.svg",
+  "dates": {
+    "start": "2021-03",
+    "end": "2022-01",
+    "duration": "10 months"
+  },
+  "workInfo": {
+    "workStyle": "Hybrid",
+    "teamSize": "25+ engineers",
+    "responsibilities": [
+      "ML pipeline architecture",
+      "Azure services integration",
+      "Client consultation"
+    ]
+  },
+  "technologies": [
+    "Azure",
+    "Python",
+    "Machine Learning",
+    "TensorFlow",
+    "Azure DevOps",
+    "REST APIs"
+  ],
+  "links": {
+    "github": "https://github.com/microsoft",
+    "twitter": "https://twitter.com/microsoft",
+    "website": "https://azure.microsoft.com"
+  },
+  "achievements": [
+    "Designed ML pipelines processing 1M+ requests daily",
+    "Reduced model training time by 40%",
+    "Led Azure AI services integration for 50+ clients"
+  ]
+}

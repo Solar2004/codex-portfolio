@@ -1,0 +1,183 @@
+{
+  "organizations": [
+    {
+      "id": "google",
+      "name": "Google",
+      "position": "Senior Software Engineer",
+      "project": "Google Cloud Platform",
+      "logo": "logo.png",
+      "dates": {
+        "start": "2022-01",
+        "end": "2024-03",
+        "duration": "2 years 3 months"
+      },
+      "workInfo": {
+        "workStyle": "Remote/Hybrid",
+        "teamSize": "15+ engineers",
+        "responsibilities": [
+          "Technical leadership",
+          "Architecture design",
+          "Team mentoring"
+        ]
+      },
+      "technologies": [
+        "Kubernetes",
+        "Docker",
+        "Go",
+        "Python",
+        "Google Cloud",
+        "Microservices"
+      ],
+      "links": {
+        "github": "https://github.com/google",
+        "twitter": "https://twitter.com/google",
+        "website": "https://cloud.google.com"
+      },
+      "achievements": [
+        "Reduced infrastructure costs by 30%",
+        "Improved deployment speed by 50%",
+        "Led migration to microservices architecture"
+      ]
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "position": "Principal Developer",
+      "project": "Azure AI Services",
+      "logo": "logo.png",
+      "dates": {
+        "start": "2021-03",
+        "end": "2022-01",
+        "duration": "10 months"
+      },
+      "workInfo": {
+        "workStyle": "Hybrid",
+        "teamSize": "25+ engineers",
+        "responsibilities": [
+          "ML pipeline architecture",
+          "Azure services integration",
+          "Client consultation"
+        ]
+      },
+      "technologies": [
+        "Azure",
+        "Python",
+        "Machine Learning",
+        "TensorFlow",
+        "Azure DevOps",
+        "REST APIs"
+      ],
+      "links": {
+        "github": "https://github.com/microsoft",
+        "twitter": "https://twitter.com/microsoft",
+        "website": "https://azure.microsoft.com"
+      },
+      "achievements": [
+        "Designed ML pipelines processing 1M+ requests daily",
+        "Reduced model training time by 40%",
+        "Led Azure AI services integration for 50+ clients"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "my-portfolio",
+      "name": "Codex Portfolio",
+      "type": "Web Application",
+      "description": "Modern portfolio website with advanced search and 3D visualizations",
+      "logo": "logo.jpg",
+      "dates": {
+        "start": "2023-09",
+        "end": "2024-01",
+        "duration": "4 months"
+      },
+      "workInfo": {
+        "workStyle": "Personal Project",
+        "status": "Completed",
+        "complexity": "Advanced"
+      },
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vite",
+        "Three.js",
+        "Swiper"
+      ],
+      "features": [
+        "3D document visualization",
+        "Advanced search functionality",
+        "Responsive design",
+        "Dark mode",
+        "Markdown rendering",
+        "Project showcase"
+      ],
+      "links": {
+        "github": {
+          "url": "https://github.com/user/codex-portfolio",
+          "repo": "user/codex-portfolio",
+          "hasRepo": true
+        },
+        "demo": "https://codex-portfolio.dev",
+        "documentation": "https://docs.codex-portfolio.dev"
+      },
+      "github": {
+        "hasRepo": true,
+        "repo": "user/codex-portfolio",
+        "views": "1.7k",
+        "stars": "45",
+        "forks": "12"
+      },
+      "challenges": [
+        "3D performance optimization",
+        "Complex search implementation",
+        "Mobile responsiveness"
+      ]
+    },
+    {
+      "id": "ai-chatbot",
+      "name": "AI Chat Assistant",
+      "type": "AI Application",
+      "description": "Intelligent chatbot with natural language processing capabilities",
+      "logo": "logo.png",
+      "dates": {
+        "start": "2023-05",
+        "end": "2023-08",
+        "duration": "3 months"
+      },
+      "workInfo": {
+        "workStyle": "Client Project",
+        "status": "Deployed",
+        "complexity": "Advanced"
+      },
+      "technologies": [
+        "Python",
+        "OpenAI API",
+        "FastAPI",
+        "React",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "features": [
+        "Natural language understanding",
+        "Context-aware responses",
+        "Multi-language support",
+        "Integration APIs",
+        "Analytics dashboard",
+        "Admin panel"
+      ],
+      "links": {
+        "demo": "https://ai-chatbot-demo.com",
+        "documentation": "https://docs.ai-chatbot.com"
+      },
+      "github": {
+        "hasRepo": false
+      },
+      "challenges": [
+        "Context management",
+        "Response accuracy",
+        "Scalability optimization"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ai-chatbot",
+  "name": "AI Chat Assistant",
+  "type": "AI Application",
+  "description": "Intelligent chatbot with natural language processing capabilities",
+  "logo": "logo.svg",
+  "dates": {
+    "start": "2023-05",
+    "end": "2023-08",
+    "duration": "3 months"
+  },
+  "workInfo": {
+    "workStyle": "Client Project",
+    "status": "Deployed",
+    "complexity": "Advanced"
+  },
+  "technologies": [
+    "Python",
+    "OpenAI API",
+    "FastAPI",
+    "React",
+    "PostgreSQL",
+    "Docker"
+  ],
+  "features": [
+    "Natural language understanding",
+    "Context-aware responses",
+    "Multi-language support",
+    "Integration APIs",
+    "Analytics dashboard",
+    "Admin panel"
+  ],
+  "links": {
+    "demo": "https://ai-chatbot-demo.com",
+    "documentation": "https://docs.ai-chatbot.com"
+  },
+  "github": {
+    "hasRepo": false
+  },
+  "challenges": [
+    "Context management",
+    "Response accuracy",
+    "Scalability optimization"
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "bios-vs-uefi",
+    "date": "2024-07-18",
+    "category": "hardware",
+    "langs": {
+      "en": {
+        "title": "Differences between BIOS/UEFI",
+        "description": "Behind your OS, kernel and motherboard, there is MORE SOFTWARE!"
+      }
+    }
+  }
+]

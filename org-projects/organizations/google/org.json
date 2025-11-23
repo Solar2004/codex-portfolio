@@ -1,0 +1,41 @@
+{
+  "id": "google",
+  "name": "Google",
+  "type": "organization",
+  "position": "Senior Software Engineer",
+  "project": "Google Cloud Platform",
+  "description": "Led development of scalable cloud infrastructure solutions for enterprise clients",
+  "logo": "logo.svg",
+  "dates": {
+    "start": "2022-01",
+    "end": "2024-03",
+    "duration": "2 years 3 months"
+  },
+  "workInfo": {
+    "workStyle": "Remote/Hybrid",
+    "teamSize": "15+ engineers",
+    "responsibilities": [
+      "Technical leadership",
+      "Architecture design",
+      "Team mentoring"
+    ]
+  },
+  "technologies": [
+    "Kubernetes",
+    "Docker",
+    "Go",
+    "Python",
+    "Google Cloud",
+    "Microservices"
+  ],
+  "links": {
+    "github": "https://github.com/google",
+    "twitter": "https://twitter.com/google",
+    "website": "https://cloud.google.com"
+  },
+  "achievements": [
+    "Reduced infrastructure costs by 30%",
+    "Improved deployment speed by 50%",
+    "Led migration to microservices architecture"
+  ]
+}

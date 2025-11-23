@@ -1,0 +1,19 @@
+[
+  {
+    "id": "test",
+    "title": "Introducción al Álgebra Lineal",
+    "category": "Matemáticas",
+    "files": [
+      {
+        "type": "md",
+        "name": "test",
+        "path": "test.md"
+      },
+      {
+        "type": "pdf",
+        "name": "Libro completo (PDF)",
+        "path": "MATEMATICA-01.pdf"
+      }
+    ]
+  }
+]
