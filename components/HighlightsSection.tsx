@@ -260,16 +260,16 @@ const HighlightsSection: React.FC<HighlightsSectionProps> = ({ lang }) => {
           >
             {highlights.map((highlight, index) => (
               <SwiperSlide key={index}>
-                <div 
+                <div
                   className="relative bg-white/5 border border-white/10 rounded-xl overflow-hidden h-80 cursor-pointer hover:bg-white/10 transition-colors duration-300"
                   onClick={() => openDrawer(highlight, 'highlight')}
                 >
-                   {/* Background Image Section - Top Half */}
-                   <div className="relative h-1/2 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900">
+                  {/* Background Image Section - Top Half */}
+                  <div className="relative h-1/2 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900">
                     {/* Logo/Icon as background */}
                     <div className="absolute inset-0 flex items-center justify-center">
                       <img
-                        src={`./org-projects/organizations/${highlight.id}/${highlight.logo}`}
+                        src={`/org-projects/organizations/${highlight.id}/${highlight.logo}`}
                         alt={`${highlight.name} logo`}
                         className="w-full h-full object-cover opacity-20"
                         onError={(e) => {
@@ -281,32 +281,32 @@ const HighlightsSection: React.FC<HighlightsSectionProps> = ({ lang }) => {
                         {highlight.name.charAt(0)}
                       </div>
                     </div>
-                     
-                     {/* Gradient overlay for text readability */}
-                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                     
-                     {/* Organization name overlay */}
-                     <div className="absolute bottom-4 left-4 right-4">
-                       <h3 className="font-display text-xl font-bold text-white">
-                         {highlight.name}
-                       </h3>
-                     </div>
-                   </div>
 
-                   {/* Content Section - Bottom Half */}
-                   <div className="h-1/2 p-4 flex flex-col justify-between">
-                     <div>
-                       <p className="text-sm text-fg/70 mb-2">
-                         {highlight.position}
-                       </p>
-                       <p className="text-xs text-accent-400 mb-2">
-                         {highlight.project}
-                       </p>
-                       <p className="text-xs text-fg/60 leading-relaxed line-clamp-2">
-                         {highlight.description}
-                       </p>
-                     </div>
-                     
+                    {/* Gradient overlay for text readability */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+
+                    {/* Organization name overlay */}
+                    <div className="absolute bottom-4 left-4 right-4">
+                      <h3 className="font-display text-xl font-bold text-white">
+                        {highlight.name}
+                      </h3>
+                    </div>
+                  </div>
+
+                  {/* Content Section - Bottom Half */}
+                  <div className="h-1/2 p-4 flex flex-col justify-between">
+                    <div>
+                      <p className="text-sm text-fg/70 mb-2">
+                        {highlight.position}
+                      </p>
+                      <p className="text-xs text-accent-400 mb-2">
+                        {highlight.project}
+                      </p>
+                      <p className="text-xs text-fg/60 leading-relaxed line-clamp-2">
+                        {highlight.description}
+                      </p>
+                    </div>
+
                     {/* Action Button */}
                     <div className="flex justify-end mt-3">
                       <button
@@ -318,10 +318,10 @@ const HighlightsSection: React.FC<HighlightsSectionProps> = ({ lang }) => {
                         </svg>
                       </button>
                     </div>
-                   </div>
-                 </div>
-               </SwiperSlide>
-             ))}
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>
@@ -407,16 +407,16 @@ const HighlightsSection: React.FC<HighlightsSectionProps> = ({ lang }) => {
           >
             {projects.map((project, index) => (
               <SwiperSlide key={index}>
-                <div 
+                <div
                   className="relative bg-white/5 border border-white/10 rounded-xl overflow-hidden h-80 cursor-pointer hover:bg-white/10 transition-colors duration-300"
                   onClick={() => openDrawer(project, 'project')}
                 >
-                   {/* Background Image Section - Top Half */}
-                   <div className="relative h-1/2 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900">
+                  {/* Background Image Section - Top Half */}
+                  <div className="relative h-1/2 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900">
                     {/* Logo/Icon as background */}
                     <div className="absolute inset-0 flex items-center justify-center">
                       <img
-                        src={`./org-projects/projects/${project.id}/${project.logo}`}
+                        src={`/org-projects/projects/${project.id}/${project.logo}`}
                         alt={`${project.name} logo`}
                         className="w-full h-full object-cover opacity-20"
                         onError={(e) => {
@@ -428,29 +428,29 @@ const HighlightsSection: React.FC<HighlightsSectionProps> = ({ lang }) => {
                         {project.name.charAt(0)}
                       </div>
                     </div>
-                     
-                     {/* Gradient overlay for text readability */}
-                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                     
-                     {/* Project name overlay */}
-                     <div className="absolute bottom-4 left-4 right-4">
-                       <h3 className="font-display text-xl font-bold text-white">
-                         {project.name}
-                       </h3>
-                     </div>
-                   </div>
 
-                   {/* Content Section - Bottom Half */}
-                   <div className="h-1/2 p-4 flex flex-col justify-between">
-                     <div>
-                       <p className="text-sm text-accent-400 mb-2">
-                         {project.type}
-                       </p>
-                       <p className="text-xs text-fg/60 leading-relaxed line-clamp-2 mb-2">
-                         {project.description}
-                       </p>
-                     </div>
-                     
+                    {/* Gradient overlay for text readability */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+
+                    {/* Project name overlay */}
+                    <div className="absolute bottom-4 left-4 right-4">
+                      <h3 className="font-display text-xl font-bold text-white">
+                        {project.name}
+                      </h3>
+                    </div>
+                  </div>
+
+                  {/* Content Section - Bottom Half */}
+                  <div className="h-1/2 p-4 flex flex-col justify-between">
+                    <div>
+                      <p className="text-sm text-accent-400 mb-2">
+                        {project.type}
+                      </p>
+                      <p className="text-xs text-fg/60 leading-relaxed line-clamp-2 mb-2">
+                        {project.description}
+                      </p>
+                    </div>
+
                     {/* Bottom Row: Views left, Share button right */}
                     <div className="flex justify-between items-center mt-3">
                       <p className="text-xs text-fg/50">
@@ -465,10 +465,10 @@ const HighlightsSection: React.FC<HighlightsSectionProps> = ({ lang }) => {
                         </svg>
                       </button>
                     </div>
-                   </div>
-                 </div>
-               </SwiperSlide>
-             ))}
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>

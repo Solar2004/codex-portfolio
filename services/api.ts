@@ -7,7 +7,7 @@ const githubViewsCache: { [key: string]: any } = {};
 
 export const fetchPosts = async (): Promise<Post[]> => {
   try {
-    const response = await fetch("./posts.json");
+    const response = await fetch("/posts.json");
     if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -25,7 +25,7 @@ export const fetchPostContent = async (id: string, lang: string): Promise<string
   if (contentCache[key]) return contentCache[key];
 
   try {
-    const response = await fetch(`./posts/${id}/content_${lang}.md`);
+    const response = await fetch(`/posts/${id}/content_${lang}.md`);
     if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -38,7 +38,7 @@ export const fetchPostContent = async (id: string, lang: string): Promise<string
   }
 };
 
-export const getCoverUrl = (id: string): string => `./posts/${id}/thumbnail.jpg`;
+export const getCoverUrl = (id: string): string => `/posts/${id}/thumbnail.jpg`;
 
 // Organization and Project data functions
 export const fetchOrgProjects = async (): Promise<{ organizations: Organization[], projects: Project[] }> => {
@@ -48,7 +48,7 @@ export const fetchOrgProjects = async (): Promise<{ organizations: Organization[
   }
 
   try {
-    const response = await fetch("./org-projects.json");
+    const response = await fetch("/org-projects.json");
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -66,7 +66,7 @@ export const fetchOrganizationContent = async (id: string): Promise<string> => {
   if (contentCache[cacheKey]) return contentCache[cacheKey];
 
   try {
-    const response = await fetch(`./org-projects/organizations/${id}/description.md`);
+    const response = await fetch(`/org-projects/organizations/${id}/description.md`);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -84,7 +84,7 @@ export const fetchProjectContent = async (id: string): Promise<string> => {
   if (contentCache[cacheKey]) return contentCache[cacheKey];
 
   try {
-    const response = await fetch(`./org-projects/projects/${id}/description.md`);
+    const response = await fetch(`/org-projects/projects/${id}/description.md`);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -147,7 +147,7 @@ export const fetchGithubViews = async (repo: string): Promise<{ views?: string, 
 
 export const fetchKnowledgeBase = async (): Promise<KnowledgeArticle[]> => {
   try {
-    const response = await fetch("./knowledge.json");
+    const response = await fetch("/knowledge.json");
     if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -164,7 +164,7 @@ export const fetchKnowledgeContent = async (articleId: string, filePath: string)
   if (contentCache[key]) return contentCache[key];
 
   try {
-    const response = await fetch(`./knowledge/${articleId}/${filePath}`);
+    const response = await fetch(`/knowledge/${articleId}/${filePath}`);
     if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -177,7 +177,7 @@ export const fetchKnowledgeContent = async (articleId: string, filePath: string)
   }
 };
 
-export const getKnowledgeAssetUrl = (articleId: string, filePath: string): string => `./knowledge/${articleId}/${filePath}`;
+export const getKnowledgeAssetUrl = (articleId: string, filePath: string): string => `/knowledge/${articleId}/${filePath}`;
 
 export interface SearchResult {
   id: string;
